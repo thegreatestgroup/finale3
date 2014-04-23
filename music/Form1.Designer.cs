@@ -41,6 +41,15 @@
             this.removeSongName = new System.Windows.Forms.TextBox();
             this.removeAlbumName = new System.Windows.Forms.TextBox();
             this.submitRemoveSome = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.addAlbum = new System.Windows.Forms.TextBox();
+            this.addComposer = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.addSongYear = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.addSongGenre = new System.Windows.Forms.TextBox();
+            this.submitAddSong = new System.Windows.Forms.Button();
             this.navMenu.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
@@ -69,6 +78,15 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.submitAddSong);
+            this.tabPage2.Controls.Add(this.addSongGenre);
+            this.tabPage2.Controls.Add(this.label8);
+            this.tabPage2.Controls.Add(this.addSongYear);
+            this.tabPage2.Controls.Add(this.label7);
+            this.tabPage2.Controls.Add(this.addComposer);
+            this.tabPage2.Controls.Add(this.addAlbum);
+            this.tabPage2.Controls.Add(this.label6);
+            this.tabPage2.Controls.Add(this.label5);
             this.tabPage2.Controls.Add(this.addArtist);
             this.tabPage2.Controls.Add(this.addSongName);
             this.tabPage2.Controls.Add(this.label2);
@@ -83,23 +101,22 @@
             // 
             // addArtist
             // 
-            this.addArtist.Location = new System.Drawing.Point(63, 34);
+            this.addArtist.Location = new System.Drawing.Point(75, 62);
             this.addArtist.Name = "addArtist";
             this.addArtist.Size = new System.Drawing.Size(100, 20);
             this.addArtist.TabIndex = 3;
             // 
             // addSongName
             // 
-            this.addSongName.Location = new System.Drawing.Point(63, 7);
+            this.addSongName.Location = new System.Drawing.Point(75, 7);
             this.addSongName.Name = "addSongName";
             this.addSongName.Size = new System.Drawing.Size(100, 20);
             this.addSongName.TabIndex = 2;
-            this.addSongName.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(10, 33);
+            this.label2.Location = new System.Drawing.Point(7, 62);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(30, 13);
             this.label2.TabIndex = 1;
@@ -170,6 +187,80 @@
             this.submitRemoveSome.Text = "Remove";
             this.submitRemoveSome.UseVisualStyleBackColor = true;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(7, 88);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(54, 13);
+            this.label5.TabIndex = 4;
+            this.label5.Text = "Composer";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(7, 32);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(36, 13);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "Album";
+            // 
+            // addAlbum
+            // 
+            this.addAlbum.Location = new System.Drawing.Point(75, 34);
+            this.addAlbum.Name = "addAlbum";
+            this.addAlbum.Size = new System.Drawing.Size(100, 20);
+            this.addAlbum.TabIndex = 6;
+            // 
+            // addComposer
+            // 
+            this.addComposer.Location = new System.Drawing.Point(75, 89);
+            this.addComposer.Name = "addComposer";
+            this.addComposer.Size = new System.Drawing.Size(100, 20);
+            this.addComposer.TabIndex = 7;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(7, 116);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(29, 13);
+            this.label7.TabIndex = 8;
+            this.label7.Text = "Year";
+            // 
+            // addSongYear
+            // 
+            this.addSongYear.Location = new System.Drawing.Point(75, 116);
+            this.addSongYear.Name = "addSongYear";
+            this.addSongYear.Size = new System.Drawing.Size(100, 20);
+            this.addSongYear.TabIndex = 9;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(9, 146);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(36, 13);
+            this.label8.TabIndex = 10;
+            this.label8.Text = "Genre";
+            // 
+            // addSongGenre
+            // 
+            this.addSongGenre.Location = new System.Drawing.Point(75, 146);
+            this.addSongGenre.Name = "addSongGenre";
+            this.addSongGenre.Size = new System.Drawing.Size(100, 20);
+            this.addSongGenre.TabIndex = 11;
+            // 
+            // submitAddSong
+            // 
+            this.submitAddSong.Location = new System.Drawing.Point(55, 194);
+            this.submitAddSong.Name = "submitAddSong";
+            this.submitAddSong.Size = new System.Drawing.Size(75, 23);
+            this.submitAddSong.TabIndex = 12;
+            this.submitAddSong.Text = "Add/Update";
+            this.submitAddSong.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -202,6 +293,15 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button submitRemoveSome;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button submitAddSong;
+        private System.Windows.Forms.TextBox addSongGenre;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox addSongYear;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox addComposer;
+        private System.Windows.Forms.TextBox addAlbum;
     }
 }
 

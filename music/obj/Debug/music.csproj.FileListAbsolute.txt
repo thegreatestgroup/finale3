@@ -19,3 +19,9 @@ C:\Users\eric.woelki\Documents\databases\music\music\obj\Debug\music.csproj.Gene
 C:\Users\eric.woelki\Documents\music\music\bin\Debug\music.exe.config
 C:\Users\eric.woelki\Documents\music\music\obj\Debug\music.exe
 C:\Users\eric.woelki\Documents\music\music\obj\Debug\music.pdb
+C:\Users\eric.woelki\Documents\music\music\bin\Debug\music.exe
+C:\Users\eric.woelki\Documents\music\music\bin\Debug\music.pdb
+C:\Users\eric.woelki\Documents\music\music\obj\Debug\music.csprojResolveAssemblyReference.cache
+C:\Users\eric.woelki\Documents\music\music\obj\Debug\music.Form1.resources
+C:\Users\eric.woelki\Documents\music\music\obj\Debug\music.Properties.Resources.resources
+C:\Users\eric.woelki\Documents\music\music\obj\Debug\music.csproj.GenerateResource.Cache
