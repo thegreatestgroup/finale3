@@ -1,0 +1,18 @@
+c:\users\eric.woelki\documents\visual studio 2012\Projects\music\music\bin\Debug\music.exe.config
+c:\users\eric.woelki\documents\visual studio 2012\Projects\music\music\bin\Debug\music.exe
+c:\users\eric.woelki\documents\visual studio 2012\Projects\music\music\bin\Debug\music.pdb
+c:\users\eric.woelki\documents\visual studio 2012\Projects\music\music\obj\Debug\music.csprojResolveAssemblyReference.cache
+c:\users\eric.woelki\documents\visual studio 2012\Projects\music\music\obj\Debug\music.Form1.resources
+c:\users\eric.woelki\documents\visual studio 2012\Projects\music\music\obj\Debug\music.Properties.Resources.resources
+c:\users\eric.woelki\documents\visual studio 2012\Projects\music\music\obj\Debug\music.csproj.GenerateResource.Cache
+c:\users\eric.woelki\documents\visual studio 2012\Projects\music\music\obj\Debug\music.exe
+c:\users\eric.woelki\documents\visual studio 2012\Projects\music\music\obj\Debug\music.pdb
+C:\Users\eric.woelki\Documents\databases\music\music\bin\Debug\music.exe.config
+C:\Users\eric.woelki\Documents\databases\music\music\obj\Debug\music.exe
+C:\Users\eric.woelki\Documents\databases\music\music\obj\Debug\music.pdb
+C:\Users\eric.woelki\Documents\databases\music\music\bin\Debug\music.exe
+C:\Users\eric.woelki\Documents\databases\music\music\bin\Debug\music.pdb
+C:\Users\eric.woelki\Documents\databases\music\music\obj\Debug\music.csprojResolveAssemblyReference.cache
+C:\Users\eric.woelki\Documents\databases\music\music\obj\Debug\music.Form1.resources
+C:\Users\eric.woelki\Documents\databases\music\music\obj\Debug\music.Properties.Resources.resources
+C:\Users\eric.woelki\Documents\databases\music\music\obj\Debug\music.csproj.GenerateResource.Cache
