@@ -30,27 +30,30 @@
         {
             this.navMenu = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.submitAddSong = new System.Windows.Forms.Button();
+            this.addSongGenre = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.addSongYear = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.addComposer = new System.Windows.Forms.TextBox();
+            this.addAlbum = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.addArtist = new System.Windows.Forms.TextBox();
             this.addSongName = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.removeSongName = new System.Windows.Forms.TextBox();
-            this.removeAlbumName = new System.Windows.Forms.TextBox();
             this.submitRemoveSome = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.addAlbum = new System.Windows.Forms.TextBox();
-            this.addComposer = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.addSongYear = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.addSongGenre = new System.Windows.Forms.TextBox();
-            this.submitAddSong = new System.Windows.Forms.Button();
+            this.removeAlbumName = new System.Windows.Forms.TextBox();
+            this.removeSongName = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.navMenu.SuspendLayout();
+            this.tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.SuspendLayout();
@@ -68,6 +71,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.dataGridView1);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
@@ -75,6 +79,15 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "View Songs";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(7, 7);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(1050, 544);
+            this.dataGridView1.TabIndex = 0;
             // 
             // tabPage2
             // 
@@ -98,6 +111,80 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Add/Update Song";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // submitAddSong
+            // 
+            this.submitAddSong.Location = new System.Drawing.Point(55, 194);
+            this.submitAddSong.Name = "submitAddSong";
+            this.submitAddSong.Size = new System.Drawing.Size(75, 23);
+            this.submitAddSong.TabIndex = 12;
+            this.submitAddSong.Text = "Add/Update";
+            this.submitAddSong.UseVisualStyleBackColor = true;
+            // 
+            // addSongGenre
+            // 
+            this.addSongGenre.Location = new System.Drawing.Point(75, 146);
+            this.addSongGenre.Name = "addSongGenre";
+            this.addSongGenre.Size = new System.Drawing.Size(100, 20);
+            this.addSongGenre.TabIndex = 11;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(9, 146);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(36, 13);
+            this.label8.TabIndex = 10;
+            this.label8.Text = "Genre";
+            // 
+            // addSongYear
+            // 
+            this.addSongYear.Location = new System.Drawing.Point(75, 116);
+            this.addSongYear.Name = "addSongYear";
+            this.addSongYear.Size = new System.Drawing.Size(100, 20);
+            this.addSongYear.TabIndex = 9;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(7, 116);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(29, 13);
+            this.label7.TabIndex = 8;
+            this.label7.Text = "Year";
+            // 
+            // addComposer
+            // 
+            this.addComposer.Location = new System.Drawing.Point(75, 89);
+            this.addComposer.Name = "addComposer";
+            this.addComposer.Size = new System.Drawing.Size(100, 20);
+            this.addComposer.TabIndex = 7;
+            // 
+            // addAlbum
+            // 
+            this.addAlbum.Location = new System.Drawing.Point(75, 34);
+            this.addAlbum.Name = "addAlbum";
+            this.addAlbum.Size = new System.Drawing.Size(100, 20);
+            this.addAlbum.TabIndex = 6;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(7, 32);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(36, 13);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "Album";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(7, 88);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(54, 13);
+            this.label5.TabIndex = 4;
+            this.label5.Text = "Composer";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // addArtist
             // 
@@ -146,14 +233,29 @@
             this.tabPage3.Text = "Remove Song";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // label3
+            // submitRemoveSome
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(7, 10);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Name";
+            this.submitRemoveSome.Location = new System.Drawing.Point(36, 73);
+            this.submitRemoveSome.Name = "submitRemoveSome";
+            this.submitRemoveSome.Size = new System.Drawing.Size(75, 23);
+            this.submitRemoveSome.TabIndex = 4;
+            this.submitRemoveSome.Text = "Remove";
+            this.submitRemoveSome.UseVisualStyleBackColor = true;
+            this.submitRemoveSome.Click += new System.EventHandler(this.submitRemoveSome_Click);
+            // 
+            // removeAlbumName
+            // 
+            this.removeAlbumName.Location = new System.Drawing.Point(62, 34);
+            this.removeAlbumName.Name = "removeAlbumName";
+            this.removeAlbumName.Size = new System.Drawing.Size(100, 20);
+            this.removeAlbumName.TabIndex = 3;
+            // 
+            // removeSongName
+            // 
+            this.removeSongName.Location = new System.Drawing.Point(62, 7);
+            this.removeSongName.Name = "removeSongName";
+            this.removeSongName.Size = new System.Drawing.Size(100, 20);
+            this.removeSongName.TabIndex = 2;
             // 
             // label4
             // 
@@ -164,102 +266,14 @@
             this.label4.TabIndex = 1;
             this.label4.Text = "Album";
             // 
-            // removeSongName
+            // label3
             // 
-            this.removeSongName.Location = new System.Drawing.Point(62, 7);
-            this.removeSongName.Name = "removeSongName";
-            this.removeSongName.Size = new System.Drawing.Size(100, 20);
-            this.removeSongName.TabIndex = 2;
-            // 
-            // removeAlbumName
-            // 
-            this.removeAlbumName.Location = new System.Drawing.Point(62, 34);
-            this.removeAlbumName.Name = "removeAlbumName";
-            this.removeAlbumName.Size = new System.Drawing.Size(100, 20);
-            this.removeAlbumName.TabIndex = 3;
-            // 
-            // submitRemoveSome
-            // 
-            this.submitRemoveSome.Location = new System.Drawing.Point(36, 73);
-            this.submitRemoveSome.Name = "submitRemoveSome";
-            this.submitRemoveSome.Size = new System.Drawing.Size(75, 23);
-            this.submitRemoveSome.TabIndex = 4;
-            this.submitRemoveSome.Text = "Remove";
-            this.submitRemoveSome.UseVisualStyleBackColor = true;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(7, 88);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(54, 13);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Composer";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(7, 32);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(36, 13);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Album";
-            // 
-            // addAlbum
-            // 
-            this.addAlbum.Location = new System.Drawing.Point(75, 34);
-            this.addAlbum.Name = "addAlbum";
-            this.addAlbum.Size = new System.Drawing.Size(100, 20);
-            this.addAlbum.TabIndex = 6;
-            // 
-            // addComposer
-            // 
-            this.addComposer.Location = new System.Drawing.Point(75, 89);
-            this.addComposer.Name = "addComposer";
-            this.addComposer.Size = new System.Drawing.Size(100, 20);
-            this.addComposer.TabIndex = 7;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(7, 116);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(29, 13);
-            this.label7.TabIndex = 8;
-            this.label7.Text = "Year";
-            // 
-            // addSongYear
-            // 
-            this.addSongYear.Location = new System.Drawing.Point(75, 116);
-            this.addSongYear.Name = "addSongYear";
-            this.addSongYear.Size = new System.Drawing.Size(100, 20);
-            this.addSongYear.TabIndex = 9;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(9, 146);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(36, 13);
-            this.label8.TabIndex = 10;
-            this.label8.Text = "Genre";
-            // 
-            // addSongGenre
-            // 
-            this.addSongGenre.Location = new System.Drawing.Point(75, 146);
-            this.addSongGenre.Name = "addSongGenre";
-            this.addSongGenre.Size = new System.Drawing.Size(100, 20);
-            this.addSongGenre.TabIndex = 11;
-            // 
-            // submitAddSong
-            // 
-            this.submitAddSong.Location = new System.Drawing.Point(55, 194);
-            this.submitAddSong.Name = "submitAddSong";
-            this.submitAddSong.Size = new System.Drawing.Size(75, 23);
-            this.submitAddSong.TabIndex = 12;
-            this.submitAddSong.Text = "Add/Update";
-            this.submitAddSong.UseVisualStyleBackColor = true;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(7, 10);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(35, 13);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Name";
             // 
             // Form1
             // 
@@ -270,6 +284,8 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.navMenu.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
@@ -302,6 +318,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox addComposer;
         private System.Windows.Forms.TextBox addAlbum;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
 
